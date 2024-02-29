@@ -1,29 +1,23 @@
-#include <iostream>
+
+#include "iostream"
+#include "string"
+
 using namespace std;
 
 int main()
 {
-    int x, y, k, z = 1, i = 0, n;
-    cin >> x;
-    cin >> y;
-    cin >> k;
-
-    for (n = 0; k != i; n++)
-    {
-        z -= 1;
-        z += x;
-        if (z >= y)
-        {
-            z -= y;
-            i += 1;
-            n++;
-        }
-    }
-    for (n; k > z; n++)
-    {
-        z -= 1;
-        z += x;
-    }
-    cout << n << endl;
-    return 0;
+	int a, b, c, n;
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	n = (a + b) * c;
+	if (n < (a * (b + c)))
+	{
+		n = (a * (b + c));
+	}
+	if (n < (a * b * c))
+	{
+		n = (a * b * c);
+	}
+	cout << n;
 }
