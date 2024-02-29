@@ -10,14 +10,4 @@ int main()
 	cin >> a;
 	cin >> b;
 	cin >> c;
-	n = (a + b) * c;
-	if (n < (a * (b + c)))
-	{
-		n = (a * (b + c));
-	}
-	if (n < (a * b * c))
-	{
-		n = (a * b * c);
-	}
-	cout << n;
 }
