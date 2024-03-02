@@ -9,5 +9,4 @@ int main()
 	int a, b, c, n;
 	cin >> a;
 	cin >> b;
-	cin >> c;
-}
+
